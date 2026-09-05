@@ -4,7 +4,7 @@ rmse<-function(eps)
 }
 
 
-rmse2<-function(y, ychap)
+rmse_bis<-function(y, ychap)
 {
   eps=y-ychap
   return(round(sqrt(mean(eps^2,na.rm=TRUE)),digits=0))
